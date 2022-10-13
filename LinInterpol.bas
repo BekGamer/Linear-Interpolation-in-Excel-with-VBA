@@ -1,4 +1,4 @@
-Attribute VB_Name = "LinInterpol"
+Attribute VB_Name = "Module1"
 Function LinInterpol(X, Xs As Range, Ys As Range)
     'For info https://github.com/BekGamer/Linear-Interpolation-in-Excel-with-VBA.git
     Dim Ks() As Double
