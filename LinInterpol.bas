@@ -1,5 +1,5 @@
 Attribute VB_Name = "LinInterpol"
-Sub LinInterpol(X, Xs As Range, Ys As Range)
+Function LinInterpol(X, Xs As Range, Ys As Range)
     'For info https://github.com/BekGamer/Linear-Interpolation-in-Excel-with-VBA.git
     Dim Ks() As Double
     Dim Cs() As Double
@@ -41,4 +41,4 @@ Sub LinInterpol(X, Xs As Range, Ys As Range)
         b = Ys(2) - (a * Xs(2) + summpr)
         LinInterpol = a * X + b + summprX
     End If
-End Sub
+End Function
